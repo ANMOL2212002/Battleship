@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body scroll="no" style="overflow: hidden"></body>
+  <body>
+    
+    <canvas id="canvas"></canvas>
+
+    <div id="main">
+      <div id="health"></div>
+      <div id="coin"></div>
+      <div id="score"></div>
+      <div id="time"></div>
+    </div>
+    
+    <div
+      id="over"
+      style="
+        font-size: 500%;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+      "
+    ></div>
+
+    <script src="js/lib/three.js"></script>
+    <script src="js/lib/Pass.js"></script>
+    <script src="js/lib/CopyShader.js"></script>
+    <script src="js/lib/ConvolutionShader.js"></script>
+    <script src="js/lib/ShaderPass.js"></script>
+    <script src="js/lib/FilmShader.js"></script>
+    <script src="js/lib/RenderPass.js"></script>
+    <script src="js/lib/FilmPass.js"></script>
+    <script src="js/lib/BloomPass.js"></script>
+    <script src="js/lib/EffectComposer.js"></script>
+    <script src="js/lib/Sky.js"></script>
+    <script src="js/lib/Water.js"></script>
+    <script src="js/lib/OrbitControls.js"></script>
+    <script src="js/lib/GLTFLoader.js"></script>
+    <script src="js/landscape.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

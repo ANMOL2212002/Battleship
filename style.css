@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+
+  font-size: 200%;
+  font-style: italic, bold;
+  font-family: 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
