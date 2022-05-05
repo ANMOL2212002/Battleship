@@ -1,9 +1,5 @@
 # Battleship
 
-<p align="center">
-<img src="img/preview.png">
-</p>
-
 # Introduction
 
 Battleship is a 3D game, built using WebGL and Three.js.
